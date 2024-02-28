@@ -1,0 +1,75 @@
+#weather-today {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+#location-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+}
+
+.temperature {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+#hourly-forecast {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: stretch; */
+  text-align: center;
+  overflow: scroll;
+}
+
+.hour {
+  flex: 0 0 80px;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.day {
+  display: grid;
+  /* justify-content: space-around;
+  align-items: center; */
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  align-items: center;
+  justify-items: center;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+  background-color: #ccc;
+  margin: 0;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbat-track {
+  background: #ccc;
+}
